@@ -44,10 +44,24 @@ body {
   color: #333333;
 }
 
+@media screen and (max-width: 500px) {
+  .header-titile {
+    font-size: 2rem;
+  }
+}
+
 .header-logo img {
   width: 47px;
   height: 47px;
 }
+
+@media screen and (max-width: 500px) {
+  .header-logo img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 
 #hamburger #gNav {
   position: fixed;
